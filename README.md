@@ -1,4 +1,4 @@
-
+# Extend from [Github](https://github.com/antoniodipinto/ikisocket)
 # WebSocket wrapper for [Fiber v2](https://github.com/gofiber/fiber) with events support
 [![Go Report Card](https://goreportcard.com/badge/github.com/antoniodipinto/ikisocket)](https://goreportcard.com/report/github.com/antoniodipinto/ikisocket)
 [![GoDoc](https://godoc.org/github.com/antoniodipinto/ikisocket?status.svg)](https://godoc.org/github.com/antoniodipinto/ikisocket)
@@ -20,11 +20,15 @@ Create ad issue following [this](https://github.com/antoniodipinto/ikisocket/blo
 ## ⚙️ Installation
 
 ```
-go get -u github.com/antoniodipinto/ikisocket
+go get -u github.com/hautami1996/ikisocket
 ```
 
-## 📖 ️ [Documentation](https://pkg.go.dev/github.com/antoniodipinto/ikisocket#section-documentation)
-
+## 📖 ️ [Documentation](https://pkg.go.dev/github.com/hautami1996/ikisocket#section-documentation)
+```go
+// Initialize new ikisocket without callback
+NewDefaultWebsocket() (kws *Websocket)
+```
+---
 ```go
 // Initialize new ikisocket in the callback this will
 // execute a callback that expects kws *Websocket Object
@@ -183,7 +187,7 @@ func (kws *Websocket) Close()
 ```
 ---
 
-## ⚡️ [Examples](https://github.com/antoniodipinto/ikisocket/tree/master/examples)
+## ⚡️ [Examples](https://github.com/antoniodipinto/hautami1996/tree/master/examples)
 
 
 
