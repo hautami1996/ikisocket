@@ -33,9 +33,5 @@ func NewDefaultWebsocket() (kws *Websocket) {
 	// register the connection into the pool
 	pool.set(kws)
 
-	kws.fireEvent(EventConnect, nil, nil)
-
-	// Run the loop for the given connection
-	kws.run()
 	return kws
 }
