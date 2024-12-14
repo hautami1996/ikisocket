@@ -20,7 +20,7 @@ Create ad issue following [this](https://github.com/antoniodipinto/ikisocket/blo
 ## ⚙️ Installation
 
 ```
-go get -u github.com/hautami1996/ikisocket
+go get -u github.com/hiendv02102000/ikisocket
 ```
 
 ## 📖 ️ [Documentation](https://pkg.go.dev/github.com/hautami1996/ikisocket#section-documentation)
