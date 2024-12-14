@@ -1,4 +1,4 @@
-module github.com/hautami1996/ikisocket
+module github.com/hiendv02102000/ikisocket
 
 go 1.14
 
